@@ -22,6 +22,8 @@ class Arithmetic{
                 println('spliting string '+ firstString.split(' '))
                 println('to List String '+ firstString.toList())
                 println('replacing '+ firstString.replaceAll('a', '*'))
+                println "drop ${firstString.drop(5)}"
+
 
         println()
         println("User Input....")
